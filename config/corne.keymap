@@ -58,9 +58,9 @@
  */
 
             bindings = <
-&trans    &kp PG_UP  &kp UP   &kp PG_DN  &trans  &kp FSLH        &kp N7     &kp N8     &kp N9       &kp MINUS  &kp HOME  &kp LEFT
-&kp DOWN  &kp RIGHT  &kp END  &kp EQUAL  &kp N4  &kp N5          &kp N6     &kp PLUS   &trans       &trans     &kp INS   &trans
-&trans    &kp N0     &kp N1   &kp N2     &kp N3  &kp ASTERISK    &lt 1 TAB  &lt 2 ESC  &lt 3 SPACE  &kp ENTER  &kp BSPC  &kp RIGHT_SHIFT
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5             &kp NUMBER_6     &kp N7     &kp N8         &kp N9          &kp N0     &kp GRAVE  &trans
+&trans        &trans        &trans        &kp LEFT          &kp DOWN           &kp UP_ARROW     &kp RIGHT  &kp SEMICOLON  &kp LEFT_SHIFT  &trans     &trans     &trans
+&trans        &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &lt 1 TAB  &lt 2 ESC      &lt 3 SPACE     &kp ENTER  &kp BSPC   &kp RIGHT_SHIFT
             >;
         };
 
